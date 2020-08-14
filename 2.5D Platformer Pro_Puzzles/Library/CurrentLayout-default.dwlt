@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1680
     height: 1005
   m_ShowMode: 4
-  m_Title: GitHub
+  m_Title: Console
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -41,10 +41,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 232
+    width: 287
     height: 407
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -67,14 +67,14 @@ MonoBehaviour:
   - {fileID: 4}
   m_Position:
     serializedVersion: 2
-    x: 1172
+    x: 1117
     y: 0
-    width: 232
+    width: 287
     height: 955
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 113
+  controlID: 104
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,7 +92,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 407
-    width: 232
+    width: 287
     height: 548
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -123,10 +123,10 @@ MonoBehaviour:
     y: 30
     width: 1680
     height: 955
-  m_MinSize: {x: 534, y: 492}
+  m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 132
+  controlID: 14
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Window
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -146,15 +146,15 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 955
-  m_MinSize: {x: 101, y: 121}
+  m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
   - {fileID: 14}
   - {fileID: 13}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 411
-    width: 1172
+    width: 1117
     height: 544
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -205,7 +205,7 @@ MonoBehaviour:
     y: 0
     width: 1680
     height: 1005
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -276,12 +276,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1172
+    width: 1117
     height: 955
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 42
+  controlID: 15
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -299,7 +299,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1172
+    width: 1117
     height: 411
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -333,7 +333,7 @@ MonoBehaviour:
     width: 275
     height: 934
   m_ViewDataDictionary: {fileID: 0}
-  loadProgress: 1
+  loadProgress: 0
   fileManagementNotice: 0
   updateError: 
   loading: 0
@@ -363,14 +363,14 @@ MonoBehaviour:
     width: 275
     height: 934
   m_ViewDataDictionary: {fileID: 0}
-  progressMessageClearTime: 576.878854229
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 0
-  repositoryProgressHasUpdate: 0
-  appManagerProgressHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
   changeTab: 3
   activeTab: 3
   initProjectView:
@@ -456,8 +456,8 @@ MonoBehaviour:
     remoteBranches: []
   changesView:
     currentBranchHasUpdate: 0
-    currentStatusEntriesHasUpdate: 0
-    currentLocksHasUpdate: 0
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
     commitBody: 
     commitMessage: 
     currentBranch: '[master]'
@@ -470,8 +470,10 @@ MonoBehaviour:
         keys:
         - 2.5D Platformer Pro_Puzzles
         - 2.5D Platformer Pro_Puzzles/Library
-        - 2.5D Platformer Pro_Puzzles/Library/gfu
-        - 2.5D Platformer Pro_Puzzles/Library/gfu/cache
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/41
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0
+        - 2.5D Platformer Pro_Puzzles/Library/ShaderCache
         values:
         - path: 2.5D Platformer Pro_Puzzles
           label: 2.5D Platformer Pro_Puzzles
@@ -482,7 +484,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -500,7 +502,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -509,8 +511,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: 2.5D Platformer Pro_Puzzles/Library/gfu
-          label: gfu
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts
+          label: Artifacts
           level: 2
           isFolder: 1
           isContainer: 0
@@ -518,7 +520,7 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -527,8 +529,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache
-          label: cache
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/41
+          label: 41
           level: 3
           isFolder: 1
           isContainer: 0
@@ -536,7 +538,43 @@ MonoBehaviour:
           isHidden: 0
           isActive: 0
           treeIsCheckable: 1
-          checkState: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0
+          label: e0
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache
+          label: ShaderCache
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
           isLocked: 0
           gitStatusEntry:
             path: 
@@ -546,48 +584,8 @@ MonoBehaviour:
             indexStatus: 0
             workTreeStatus: 0
       checkedFileNodes:
-        keys:
-        - 2.5D Platformer Pro_Puzzles/Library/gfu/cache/branches.yaml
-        - 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
-        values:
-        - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/branches.yaml
-          label: branches.yaml
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/branches.yaml
-            fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D
-              Platformer Pro_Puzzles/Library/gfu/cache/branches.yaml
-            projectPath: Library/gfu/cache/branches.yaml
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
-          label: gittrackingstatus.yaml
-          level: 4
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 1
-          isLocked: 0
-          gitStatusEntry:
-            path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
-            fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D
-              Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
-            projectPath: Library/gfu/cache/gittrackingstatus.yaml
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
+        keys: []
+        values: []
       title: 
       pathSeparator: /
       displayRootNode: 0
@@ -604,7 +602,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -622,7 +620,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -640,7 +638,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -649,8 +647,27 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: 2.5D Platformer Pro_Puzzles/Library/gfu
-        label: gfu
+      - path: 2.5D Platformer Pro_Puzzles/Library/ArtifactDB
+        label: ArtifactDB
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/ArtifactDB
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/ArtifactDB
+          projectPath: Library/ArtifactDB
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts
+        label: Artifacts
         level: 2
         isFolder: 1
         isContainer: 0
@@ -658,7 +675,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -667,8 +684,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache
-        label: cache
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/41
+        label: 41
         level: 3
         isFolder: 1
         isContainer: 0
@@ -676,7 +693,7 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
           path: 
@@ -685,8 +702,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/branches.yaml
-        label: branches.yaml
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/41/419ec910c97eb4952003a9980a973396
+        label: 419ec910c97eb4952003a9980a973396
         level: 4
         isFolder: 0
         isContainer: 0
@@ -694,32 +711,201 @@ MonoBehaviour:
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/branches.yaml
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/41/419ec910c97eb4952003a9980a973396
           fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
-            Pro_Puzzles/Library/gfu/cache/branches.yaml
-          projectPath: Library/gfu/cache/branches.yaml
+            Pro_Puzzles/Library/Artifacts/41/419ec910c97eb4952003a9980a973396
+          projectPath: Library/Artifacts/41/419ec910c97eb4952003a9980a973396
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0
+        label: e0
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+        label: e0469a918b6b0974e17c0cc6cad5aaca
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+          projectPath: Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/EditorInstance.json
+        label: EditorInstance.json
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/EditorInstance.json
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/EditorInstance.json
+          projectPath: Library/EditorInstance.json
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2.5D Platformer Pro_Puzzles/Library/SceneVisibilityState.asset
+        label: SceneVisibilityState.asset
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/SceneVisibilityState.asset
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/SceneVisibilityState.asset
+          projectPath: Library/SceneVisibilityState.asset
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
-      - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
-        label: gittrackingstatus.yaml
-        level: 4
+      - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache
+        label: ShaderCache
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/EditorEncounteredVariants
+        label: EditorEncounteredVariants
+        level: 3
         isFolder: 0
         isContainer: 0
         isCollapsed: 0
         isHidden: 0
         isActive: 0
         treeIsCheckable: 1
-        checkState: 1
+        checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+          path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/EditorEncounteredVariants
           fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
-            Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
-          projectPath: Library/gfu/cache/gittrackingstatus.yaml
+            Pro_Puzzles/Library/ShaderCache/EditorEncounteredVariants
+          projectPath: Library/ShaderCache/EditorEncounteredVariants
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler0.log
+        label: shadercompiler-UnityShaderCompiler0.log
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler0.log
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler0.log
+          projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler1.log
+        label: shadercompiler-UnityShaderCompiler1.log
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler1.log
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler1.log
+          projectPath: Library/shadercompiler-UnityShaderCompiler1.log
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler2.log
+        label: shadercompiler-UnityShaderCompiler2.log
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler2.log
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler2.log
+          projectPath: Library/shadercompiler-UnityShaderCompiler2.log
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/SourceAssetDB
+        label: SourceAssetDB
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/SourceAssetDB
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/SourceAssetDB
+          projectPath: Library/SourceAssetDB
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -743,29 +929,85 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/branches.yaml
+    - path: 2.5D Platformer Pro_Puzzles/Library/ArtifactDB
       fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
-        Pro_Puzzles/Library/gfu/cache/branches.yaml
-      projectPath: Library/gfu/cache/branches.yaml
+        Pro_Puzzles/Library/ArtifactDB
+      projectPath: Library/ArtifactDB
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/41/419ec910c97eb4952003a9980a973396
       fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
-        Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
-      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+        Pro_Puzzles/Library/Artifacts/41/419ec910c97eb4952003a9980a973396
+      projectPath: Library/Artifacts/41/419ec910c97eb4952003a9980a973396
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+      projectPath: Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/EditorInstance.json
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2.5D Platformer Pro_Puzzles/Library/SceneVisibilityState.asset
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/SceneVisibilityState.asset
+      projectPath: Library/SceneVisibilityState.asset
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 2 changed files
+    - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/EditorEncounteredVariants
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/ShaderCache/EditorEncounteredVariants
+      projectPath: Library/ShaderCache/EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler1.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler1.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler1.log
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler2.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler2.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler2.log
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/SourceAssetDB
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 10 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2020-08-14T13:31:26.228+12:00
+      updatedTimeString: 2020-08-14T16:56:19.415+12:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-08-14T13:31:13.598+12:00
+      updatedTimeString: 2020-08-14T17:48:37.358+12:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2020-08-14T17:46:10.869+12:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -993,7 +1235,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: master
   currentRemoteUrl: https://github.com/TheS0urce/2.5D-Platformer-Pro_Puzzles.git
-  statusAhead: 2
+  statusAhead: 3
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
@@ -1006,13 +1248,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2020-08-14T13:31:26.228+12:00
+    updatedTimeString: 2020-08-14T16:56:19.415+12:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2020-08-14T13:31:13.636+12:00
+    updatedTimeString: 2020-08-14T16:56:19.562+12:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2020-08-14T13:31:13.598+12:00
+    updatedTimeString: 2020-08-14T17:00:05.663+12:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -1031,9 +1273,9 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: 
   repositoryProgressValue: 0
-  repositoryProgressMessage: Pushing
-  appManagerProgressValue: 1
-  appManagerProgressMessage: Initialized
+  repositoryProgressMessage: 
+  appManagerProgressValue: 0.5
+  appManagerProgressMessage: Setting up git...
   connections: []
   primaryConnectionUsername: TheS0urce
 --- !u!114 &15
@@ -1063,7 +1305,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -30794
+  m_LastSelectedObjectID: 14188
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1084,9 +1326,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1172
+    x: 1117
     y: 482
-    width: 230
+    width: 285
     height: 527
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
@@ -1101,7 +1343,8 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SkipHidden: 0
     m_SearchArea: 1
-    m_Folders: []
+    m_Folders:
+    - Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials
     m_Globs: []
   m_ViewMode: 0
   m_StartGridSize: 16
@@ -1115,7 +1358,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: d4370000
     m_LastClickedID: 14292
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 0000000076390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1143,7 +1386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff043f0000
+    m_ExpandedIDs: ffffffff00000000763900008e390000a4390000083a00000a3a00000c3a00000e3a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1159,7 +1402,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 0}
+      m_ClientGUIView: {fileID: 4}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1231,7 +1474,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 185
   m_AssetGUID: 
   m_InstanceID: 0
   m_LockTracker:
@@ -1257,17 +1500,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1172
+    x: 1117
     y: 75
-    width: 230
+    width: 285
     height: 386
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: b4420000
-      m_LastClickedID: 17076
-      m_ExpandedIDs: b2efffff26fbffff0000803f
+      m_SelectedIDs: 6c370000
+      m_LastClickedID: 14188
+      m_ExpandedIDs: 60fbffff6c3700004c380000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1313,7 +1556,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 75
-    width: 1171
+    width: 1116
     height: 390
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
@@ -1327,9 +1570,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0, y: 0, z: 0}
+    m_Target: {x: 19.95, y: 26.46, z: -8.25}
     speed: 2
-    m_Value: {x: 0, y: 0, z: 0}
+    m_Value: {x: 19.95, y: 26.46, z: -8.25}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1378,11 +1621,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0, y: 0, z: 0, w: 1}
     speed: 2
-    m_Value: {x: 0, y: 0.00000014044014, z: 0, w: 1}
+    m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 10
+    m_Target: 20.4122
     speed: 2
-    m_Value: 10
+    m_Value: 20.4122
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1429,7 +1672,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 486
-    width: 1171
+    width: 1116
     height: 523
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
@@ -1474,23 +1717,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 1171
+      width: 1116
       height: 502
     m_Scale: {x: 2, y: 2}
-    m_Translation: {x: 585.5, y: 251}
+    m_Translation: {x: 558, y: 251}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -292.75
+      x: -279
       y: -125.5
-      width: 585.5
+      width: 558
       height: 251
     m_MinimalGUI: 1
   m_defaultScale: 2
-  m_LastWindowPixelSize: {x: 2342, y: 1046}
+  m_LastWindowPixelSize: {x: 2232, y: 1046}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -1518,7 +1761,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 486
-    width: 1171
+    width: 1116
     height: 523
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &22

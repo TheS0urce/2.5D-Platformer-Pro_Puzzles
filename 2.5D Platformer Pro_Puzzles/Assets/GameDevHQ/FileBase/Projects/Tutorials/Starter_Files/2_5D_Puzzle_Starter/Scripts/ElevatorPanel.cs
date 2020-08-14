@@ -6,6 +6,8 @@ public class ElevatorPanel : MonoBehaviour
 {
     [SerializeField]
     private MeshRenderer _callButton;
+    [SerializeField]
+    private int _requiredCoins = 8;
     
     //check collision
     //check player
@@ -16,7 +18,7 @@ public class ElevatorPanel : MonoBehaviour
     {
         if(other.tag == "Player")
         {
-            if(Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E) && other.GetComponent<Player>().CointCount() >= _requiredCoins)
             {
                 _callButton.material.color = Color.green;
             }

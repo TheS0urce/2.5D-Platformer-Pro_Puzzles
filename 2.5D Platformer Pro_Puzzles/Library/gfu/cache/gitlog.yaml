@@ -13,9 +13,56 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-08-14T13:30:41.521+12:00
+  lastUpdatedAtString: 2020-08-14T13:31:26.531+12:00
   initializedAtString: 2020-08-14T13:25:27.472+12:00
   log:
+  - commitID: 6991cc92a0f67e37334b3b48f4e1ba8551645ceb
+    mergeA: 
+    mergeB: 
+    authorName: Michiel Burger
+    authorEmail: michielburger0@gmail.com
+    commitEmail: michielburger0@gmail.com
+    commitName: Michiel Burger
+    summary: Intial commit II
+    description: 
+    timeString: 2020-08-14T13:31:12.000+12:00
+    commitTimeString: 2020-08-14T13:31:12.000+12:00
+    changes:
+    - path: 2.5D Platformer Pro_Puzzles/Library/SourceAssetDB
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/branches.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 0b461e4468f57ab78380d992478732995cc3182e
     mergeA: 
     mergeB: 

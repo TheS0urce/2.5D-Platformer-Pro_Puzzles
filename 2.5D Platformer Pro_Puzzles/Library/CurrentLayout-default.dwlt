@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1680
     height: 1005
   m_ShowMode: 4
-  m_Title: Console
+  m_Title: Game
   m_RootView: {fileID: 8}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 0
 --- !u!114 &2
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 104
+  controlID: 68
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -205,7 +205,7 @@ MonoBehaviour:
     y: 0
     width: 1680
     height: 1005
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -278,8 +278,8 @@ MonoBehaviour:
     y: 0
     width: 1117
     height: 955
-  m_MinSize: {x: 201, y: 442}
-  m_MaxSize: {x: 4001, y: 8042}
+  m_MinSize: {x: 201, y: 421}
+  m_MaxSize: {x: 4001, y: 8021}
   vertical: 1
   controlID: 15
 --- !u!114 &12
@@ -301,8 +301,8 @@ MonoBehaviour:
     y: 0
     width: 1117
     height: 411
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -368,7 +368,7 @@ MonoBehaviour:
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 0
-  currentStatusEntriesHasUpdate: 1
+  currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 1
   appManagerProgressHasUpdate: 1
   changeTab: 3
@@ -461,7 +461,7 @@ MonoBehaviour:
     commitBody: 
     commitMessage: 
     currentBranch: '[master]'
-    treeScroll: {x: 0, y: 0}
+    treeScroll: {x: 0, y: 270.00122}
     treeChanges:
       assets:
         keys: []
@@ -469,15 +469,217 @@ MonoBehaviour:
       folders:
         keys:
         - 2.5D Platformer Pro_Puzzles
+        - 2.5D Platformer Pro_Puzzles/Assets
+        - 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ
+        - 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase
+        - 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects
+        - 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials
+        - 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files
+        - 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter
+        - 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials
+        - 2.5D Platformer Pro_Puzzles/Assets/Scenes
         - 2.5D Platformer Pro_Puzzles/Library
         - 2.5D Platformer Pro_Puzzles/Library/Artifacts
-        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/41
-        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/01
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/13
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/14
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/44
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/54
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/58
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/5a
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/5d
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/68
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/6a
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/71
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/88
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/8e
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/94
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/97
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/a3
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/b1
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/b2
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/bf
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/e2
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/ea
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/f5
+        - 2.5D Platformer Pro_Puzzles/Library/Artifacts/ff
+        - 2.5D Platformer Pro_Puzzles/Library/gfu
+        - 2.5D Platformer Pro_Puzzles/Library/gfu/cache
+        - 2.5D Platformer Pro_Puzzles/Library/ScriptAssemblies
         - 2.5D Platformer Pro_Puzzles/Library/ShaderCache
+        - 2.5D Platformer Pro_Puzzles/Library/ShaderCache/9
+        - 2.5D Platformer Pro_Puzzles/Library/ShaderCache/c
+        - 2.5D Platformer Pro_Puzzles/Library/StateCache
+        - 2.5D Platformer Pro_Puzzles/Library/StateCache/MainStageHierarchy
+        - 2.5D Platformer Pro_Puzzles/Library/StateCache/MainStageHierarchy/4d
+        - 2.5D Platformer Pro_Puzzles/Library/StateCache/SceneView
+        - 2.5D Platformer Pro_Puzzles/Library/StateCache/SceneView/8c
         values:
         - path: 2.5D Platformer Pro_Puzzles
           label: 2.5D Platformer Pro_Puzzles
           level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Assets
+          label: Assets
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ
+          label: GameDevHQ
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase
+          label: FileBase
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects
+          label: Projects
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials
+          label: Tutorials
+          level: 5
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files
+          label: Starter_Files
+          level: 6
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter
+          label: 2_5D_Puzzle_Starter
+          level: 7
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials
+          label: Materials
+          level: 8
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Assets/Scenes
+          label: Scenes
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -529,8 +731,8 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/41
-          label: 41
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/01
+          label: 01
           level: 3
           isFolder: 1
           isContainer: 0
@@ -547,9 +749,441 @@ MonoBehaviour:
             originalPath: 
             indexStatus: 0
             workTreeStatus: 0
-        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0
-          label: e0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/13
+          label: 13
           level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/14
+          label: 14
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/44
+          label: 44
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/54
+          label: 54
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/58
+          label: 58
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/5a
+          label: 5a
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/5d
+          label: 5d
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/68
+          label: 68
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/6a
+          label: 6a
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/71
+          label: 71
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/88
+          label: 88
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/8e
+          label: 8e
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/94
+          label: 94
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/97
+          label: 97
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/a3
+          label: a3
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/b1
+          label: b1
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/b2
+          label: b2
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/bf
+          label: bf
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e2
+          label: e2
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/ea
+          label: ea
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/f5
+          label: f5
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/ff
+          label: ff
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/gfu
+          label: gfu
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache
+          label: cache
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/ScriptAssemblies
+          label: ScriptAssemblies
+          level: 2
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -568,6 +1202,132 @@ MonoBehaviour:
         - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache
           label: ShaderCache
           level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/9
+          label: 9
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/c
+          label: c
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/StateCache
+          label: StateCache
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/MainStageHierarchy
+          label: MainStageHierarchy
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/MainStageHierarchy/4d
+          label: 4d
+          level: 4
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/SceneView
+          label: SceneView
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/SceneView/8c
+          label: 8c
+          level: 4
           isFolder: 1
           isContainer: 0
           isCollapsed: 0
@@ -629,6 +1389,225 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Assets
+        label: Assets
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ
+        label: GameDevHQ
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase
+        label: FileBase
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects
+        label: Projects
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials
+        label: Tutorials
+        level: 5
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files
+        label: Starter_Files
+        level: 6
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter
+        label: 2_5D_Puzzle_Starter
+        level: 7
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials
+        label: Materials
+        level: 8
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+        label: Call_Button_Blue_mat.mat
+        level: 9
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+          projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+        label: Call_Button_Blue_mat.mat.meta
+        level: 10
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+          projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Assets/Scenes
+        label: Scenes
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Assets/Scenes/SampleScene.unity
+        label: SampleScene.unity
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Assets/Scenes/SampleScene.unity
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Assets/Scenes/SampleScene.unity
+          projectPath: Assets/Scenes/SampleScene.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: 2.5D Platformer Pro_Puzzles/Library
         label: Library
         level: 1
@@ -647,6 +1626,25 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/AnnotationManager
+        label: AnnotationManager
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/AnnotationManager
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/AnnotationManager
+          projectPath: Library/AnnotationManager
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: 2.5D Platformer Pro_Puzzles/Library/ArtifactDB
         label: ArtifactDB
         level: 2
@@ -684,8 +1682,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/41
-        label: 41
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/01
+        label: 01
         level: 3
         isFolder: 1
         isContainer: 0
@@ -702,8 +1700,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/41/419ec910c97eb4952003a9980a973396
-        label: 419ec910c97eb4952003a9980a973396
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/01/0160d3c642cb7c36d2e2d41ae14b4a3e
+        label: 0160d3c642cb7c36d2e2d41ae14b4a3e
         level: 4
         isFolder: 0
         isContainer: 0
@@ -714,15 +1712,15 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/41/419ec910c97eb4952003a9980a973396
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/01/0160d3c642cb7c36d2e2d41ae14b4a3e
           fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
-            Pro_Puzzles/Library/Artifacts/41/419ec910c97eb4952003a9980a973396
-          projectPath: Library/Artifacts/41/419ec910c97eb4952003a9980a973396
+            Pro_Puzzles/Library/Artifacts/01/0160d3c642cb7c36d2e2d41ae14b4a3e
+          projectPath: Library/Artifacts/01/0160d3c642cb7c36d2e2d41ae14b4a3e
           originalPath: 
           indexStatus: 0
           workTreeStatus: 5
-      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0
-        label: e0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/13
+        label: 13
         level: 3
         isFolder: 1
         isContainer: 0
@@ -739,8 +1737,8 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
-        label: e0469a918b6b0974e17c0cc6cad5aaca
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/13/133c6f60884f4a2ee8081c81e068f638
+        label: 133c6f60884f4a2ee8081c81e068f638
         level: 4
         isFolder: 0
         isContainer: 0
@@ -751,13 +1749,809 @@ MonoBehaviour:
         checkState: 0
         isLocked: 0
         gitStatusEntry:
-          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/13/133c6f60884f4a2ee8081c81e068f638
           fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
-            Pro_Puzzles/Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
-          projectPath: Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+            Pro_Puzzles/Library/Artifacts/13/133c6f60884f4a2ee8081c81e068f638
+          projectPath: Library/Artifacts/13/133c6f60884f4a2ee8081c81e068f638
           originalPath: 
           indexStatus: 0
           workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/14
+        label: 14
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/14/142dd525c94bd5b5e16e2bf0880b1c01
+        label: 142dd525c94bd5b5e16e2bf0880b1c01
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/14/142dd525c94bd5b5e16e2bf0880b1c01
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/14/142dd525c94bd5b5e16e2bf0880b1c01
+          projectPath: Library/Artifacts/14/142dd525c94bd5b5e16e2bf0880b1c01
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/44
+        label: 44
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/44/4451e3586a7cae389da6d0135a52a980
+        label: 4451e3586a7cae389da6d0135a52a980
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/44/4451e3586a7cae389da6d0135a52a980
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/44/4451e3586a7cae389da6d0135a52a980
+          projectPath: Library/Artifacts/44/4451e3586a7cae389da6d0135a52a980
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/54
+        label: 54
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/54/54ebb5fe5a1e85c78248b5d1a78ece1e
+        label: 54ebb5fe5a1e85c78248b5d1a78ece1e
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/54/54ebb5fe5a1e85c78248b5d1a78ece1e
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/54/54ebb5fe5a1e85c78248b5d1a78ece1e
+          projectPath: Library/Artifacts/54/54ebb5fe5a1e85c78248b5d1a78ece1e
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/58
+        label: 58
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/58/58d17d17f2b43c8a7cbe094d4855e86c
+        label: 58d17d17f2b43c8a7cbe094d4855e86c
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/58/58d17d17f2b43c8a7cbe094d4855e86c
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/58/58d17d17f2b43c8a7cbe094d4855e86c
+          projectPath: Library/Artifacts/58/58d17d17f2b43c8a7cbe094d4855e86c
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/5a
+        label: 5a
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/5a/5a150bef5cee40bbe45ddd5f39f96e30
+        label: 5a150bef5cee40bbe45ddd5f39f96e30
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/5a/5a150bef5cee40bbe45ddd5f39f96e30
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/5a/5a150bef5cee40bbe45ddd5f39f96e30
+          projectPath: Library/Artifacts/5a/5a150bef5cee40bbe45ddd5f39f96e30
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/5d
+        label: 5d
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/5d/5d4795d040407b6330f105dc69bb3980
+        label: 5d4795d040407b6330f105dc69bb3980
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/5d/5d4795d040407b6330f105dc69bb3980
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/5d/5d4795d040407b6330f105dc69bb3980
+          projectPath: Library/Artifacts/5d/5d4795d040407b6330f105dc69bb3980
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/68
+        label: 68
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/68/686489217a784a9c7babe0add7d5f49d
+        label: 686489217a784a9c7babe0add7d5f49d
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/68/686489217a784a9c7babe0add7d5f49d
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/68/686489217a784a9c7babe0add7d5f49d
+          projectPath: Library/Artifacts/68/686489217a784a9c7babe0add7d5f49d
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/6a
+        label: 6a
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/6a/6a1c2aef45d8450081886123e8d4ad09
+        label: 6a1c2aef45d8450081886123e8d4ad09
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/6a/6a1c2aef45d8450081886123e8d4ad09
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/6a/6a1c2aef45d8450081886123e8d4ad09
+          projectPath: Library/Artifacts/6a/6a1c2aef45d8450081886123e8d4ad09
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/71
+        label: 71
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/71/71af8d22e673cf8105f114c6e7947f47
+        label: 71af8d22e673cf8105f114c6e7947f47
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/71/71af8d22e673cf8105f114c6e7947f47
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/71/71af8d22e673cf8105f114c6e7947f47
+          projectPath: Library/Artifacts/71/71af8d22e673cf8105f114c6e7947f47
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/88
+        label: 88
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/88/88448bcbadca7e149bc3c75bef9a13ba
+        label: 88448bcbadca7e149bc3c75bef9a13ba
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/88/88448bcbadca7e149bc3c75bef9a13ba
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/88/88448bcbadca7e149bc3c75bef9a13ba
+          projectPath: Library/Artifacts/88/88448bcbadca7e149bc3c75bef9a13ba
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/8e
+        label: 8e
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/8e/8e83b8efc2ffe88d42037df3b9c6b90e
+        label: 8e83b8efc2ffe88d42037df3b9c6b90e
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/8e/8e83b8efc2ffe88d42037df3b9c6b90e
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/8e/8e83b8efc2ffe88d42037df3b9c6b90e
+          projectPath: Library/Artifacts/8e/8e83b8efc2ffe88d42037df3b9c6b90e
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/94
+        label: 94
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/94/94ca5339b4063b2fad1a643a032073ae
+        label: 94ca5339b4063b2fad1a643a032073ae
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/94/94ca5339b4063b2fad1a643a032073ae
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/94/94ca5339b4063b2fad1a643a032073ae
+          projectPath: Library/Artifacts/94/94ca5339b4063b2fad1a643a032073ae
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/97
+        label: 97
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/97/9703d79e0919ca006628c2aad9a3fe4c
+        label: 9703d79e0919ca006628c2aad9a3fe4c
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/97/9703d79e0919ca006628c2aad9a3fe4c
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/97/9703d79e0919ca006628c2aad9a3fe4c
+          projectPath: Library/Artifacts/97/9703d79e0919ca006628c2aad9a3fe4c
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/a3
+        label: a3
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/a3/a368f8a6ee25ef933c62492b5b427e14
+        label: a368f8a6ee25ef933c62492b5b427e14
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/a3/a368f8a6ee25ef933c62492b5b427e14
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/a3/a368f8a6ee25ef933c62492b5b427e14
+          projectPath: Library/Artifacts/a3/a368f8a6ee25ef933c62492b5b427e14
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/b1
+        label: b1
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/b1/b196f07578cb81cc8e7c6d0ea31e0e08
+        label: b196f07578cb81cc8e7c6d0ea31e0e08
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/b1/b196f07578cb81cc8e7c6d0ea31e0e08
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/b1/b196f07578cb81cc8e7c6d0ea31e0e08
+          projectPath: Library/Artifacts/b1/b196f07578cb81cc8e7c6d0ea31e0e08
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/b2
+        label: b2
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/b2/b27459c4ff66aa1a78a4f05742cd97ce
+        label: b27459c4ff66aa1a78a4f05742cd97ce
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/b2/b27459c4ff66aa1a78a4f05742cd97ce
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/b2/b27459c4ff66aa1a78a4f05742cd97ce
+          projectPath: Library/Artifacts/b2/b27459c4ff66aa1a78a4f05742cd97ce
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/bf
+        label: bf
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/bf/bfc3e60a0d87a98d5a8971c6255810a5
+        label: bfc3e60a0d87a98d5a8971c6255810a5
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/bf/bfc3e60a0d87a98d5a8971c6255810a5
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/bf/bfc3e60a0d87a98d5a8971c6255810a5
+          projectPath: Library/Artifacts/bf/bfc3e60a0d87a98d5a8971c6255810a5
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e2
+        label: e2
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e2/e2fd5d27908bb93ae71fd966b2067bf3
+        label: e2fd5d27908bb93ae71fd966b2067bf3
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e2/e2fd5d27908bb93ae71fd966b2067bf3
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/e2/e2fd5d27908bb93ae71fd966b2067bf3
+          projectPath: Library/Artifacts/e2/e2fd5d27908bb93ae71fd966b2067bf3
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/ea
+        label: ea
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/ea/ead05113802a8c55bf64f5f7946e36c4
+        label: ead05113802a8c55bf64f5f7946e36c4
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/ea/ead05113802a8c55bf64f5f7946e36c4
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/ea/ead05113802a8c55bf64f5f7946e36c4
+          projectPath: Library/Artifacts/ea/ead05113802a8c55bf64f5f7946e36c4
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/f5
+        label: f5
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/f5/f51de7b84372de0237e77759dd9ebf39
+        label: f51de7b84372de0237e77759dd9ebf39
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/f5/f51de7b84372de0237e77759dd9ebf39
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/f5/f51de7b84372de0237e77759dd9ebf39
+          projectPath: Library/Artifacts/f5/f51de7b84372de0237e77759dd9ebf39
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/ff
+        label: ff
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/ff/ffb3bd7928f778e7aa74c05a0e85da6f
+        label: ffb3bd7928f778e7aa74c05a0e85da6f
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/ff/ffb3bd7928f778e7aa74c05a0e85da6f
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/Artifacts/ff/ffb3bd7928f778e7aa74c05a0e85da6f
+          projectPath: Library/Artifacts/ff/ffb3bd7928f778e7aa74c05a0e85da6f
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 5
+      - path: 2.5D Platformer Pro_Puzzles/Library/CurrentLayout-default.dwlt
+        label: CurrentLayout-default.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/CurrentLayout-default.dwlt
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/CurrentLayout-default.dwlt
+          projectPath: Library/CurrentLayout-default.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: 2.5D Platformer Pro_Puzzles/Library/EditorInstance.json
         label: EditorInstance.json
         level: 2
@@ -775,8 +2569,196 @@ MonoBehaviour:
             Pro_Puzzles/Library/EditorInstance.json
           projectPath: Library/EditorInstance.json
           originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/expandedItems
+        label: expandedItems
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/expandedItems
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/expandedItems
+          projectPath: Library/expandedItems
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/gfu
+        label: gfu
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache
+        label: cache
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/branches.yaml
+        label: branches.yaml
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/branches.yaml
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/gfu/cache/branches.yaml
+          projectPath: Library/gfu/cache/branches.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitlocks.yaml
+        label: gitlocks.yaml
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitlocks.yaml
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/gfu/cache/gitlocks.yaml
+          projectPath: Library/gfu/cache/gitlocks.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitlog.yaml
+        label: gitlog.yaml
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitlog.yaml
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/gfu/cache/gitlog.yaml
+          projectPath: Library/gfu/cache/gitlog.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitstatusentries.yaml
+        label: gitstatusentries.yaml
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitstatusentries.yaml
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/gfu/cache/gitstatusentries.yaml
+          projectPath: Library/gfu/cache/gitstatusentries.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+        label: gittrackingstatus.yaml
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+          projectPath: Library/gfu/cache/gittrackingstatus.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/repoinfo.yaml
+        label: repoinfo.yaml
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/repoinfo.yaml
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/gfu/cache/repoinfo.yaml
+          projectPath: Library/gfu/cache/repoinfo.yaml
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/InspectorExpandedItems.asset
+        label: InspectorExpandedItems.asset
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/InspectorExpandedItems.asset
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/InspectorExpandedItems.asset
+          projectPath: Library/InspectorExpandedItems.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: 2.5D Platformer Pro_Puzzles/Library/SceneVisibilityState.asset
         label: SceneVisibilityState.asset
         level: 2
@@ -793,6 +2775,43 @@ MonoBehaviour:
           fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
             Pro_Puzzles/Library/SceneVisibilityState.asset
           projectPath: Library/SceneVisibilityState.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/ScriptAssemblies
+        label: ScriptAssemblies
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/ScriptAssemblies/Assembly-CSharp.dll
+        label: Assembly-CSharp.dll
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/ScriptAssemblies/Assembly-CSharp.dll
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/ScriptAssemblies/Assembly-CSharp.dll
+          projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -814,6 +2833,80 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/9
+        label: 9
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/9/92befcfc9efaaec2a121df9e4eef5873.bin
+        label: 92befcfc9efaaec2a121df9e4eef5873.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/9/92befcfc9efaaec2a121df9e4eef5873.bin
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/ShaderCache/9/92befcfc9efaaec2a121df9e4eef5873.bin
+          projectPath: Library/ShaderCache/9/92befcfc9efaaec2a121df9e4eef5873.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/c
+        label: c
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/c/cd6d5badf978ac18ebeea384b26bb0dc.bin
+        label: cd6d5badf978ac18ebeea384b26bb0dc.bin
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/c/cd6d5badf978ac18ebeea384b26bb0dc.bin
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/ShaderCache/c/cd6d5badf978ac18ebeea384b26bb0dc.bin
+          projectPath: Library/ShaderCache/c/cd6d5badf978ac18ebeea384b26bb0dc.bin
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
       - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/EditorEncounteredVariants
         label: EditorEncounteredVariants
         level: 3
@@ -830,25 +2923,6 @@ MonoBehaviour:
           fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
             Pro_Puzzles/Library/ShaderCache/EditorEncounteredVariants
           projectPath: Library/ShaderCache/EditorEncounteredVariants
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler0.log
-        label: shadercompiler-UnityShaderCompiler0.log
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler0.log
-          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
-            Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler0.log
-          projectPath: Library/shadercompiler-UnityShaderCompiler0.log
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -890,6 +2964,44 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler3.log
+        label: shadercompiler-UnityShaderCompiler3.log
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler3.log
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler3.log
+          projectPath: Library/shadercompiler-UnityShaderCompiler3.log
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler4.log
+        label: shadercompiler-UnityShaderCompiler4.log
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler4.log
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler4.log
+          projectPath: Library/shadercompiler-UnityShaderCompiler4.log
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
       - path: 2.5D Platformer Pro_Puzzles/Library/SourceAssetDB
         label: SourceAssetDB
         level: 2
@@ -906,6 +3018,134 @@ MonoBehaviour:
           fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
             Pro_Puzzles/Library/SourceAssetDB
           projectPath: Library/SourceAssetDB
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/StateCache
+        label: StateCache
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/MainStageHierarchy
+        label: MainStageHierarchy
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/MainStageHierarchy/4d
+        label: 4d
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+        label: 4d2a36d9faf65734f0bbefb3ee623532.json
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+          projectPath: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/SceneView
+        label: SceneView
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/SceneView/8c
+        label: 8c
+        level: 4
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+        label: 8cd7c613bf844de3b80696e27a479d5e.json
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 2.5D Platformer Pro_Puzzles/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+          fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+            Pro_Puzzles/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+          projectPath: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
           originalPath: 
           indexStatus: 0
           workTreeStatus: 3
@@ -929,6 +3169,34 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Assets/Scenes/SampleScene.unity
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/AnnotationManager
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/AnnotationManager
+      projectPath: Library/AnnotationManager
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: 2.5D Platformer Pro_Puzzles/Library/ArtifactDB
       fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
         Pro_Puzzles/Library/ArtifactDB
@@ -936,27 +3204,237 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/41/419ec910c97eb4952003a9980a973396
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/01/0160d3c642cb7c36d2e2d41ae14b4a3e
       fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
-        Pro_Puzzles/Library/Artifacts/41/419ec910c97eb4952003a9980a973396
-      projectPath: Library/Artifacts/41/419ec910c97eb4952003a9980a973396
+        Pro_Puzzles/Library/Artifacts/01/0160d3c642cb7c36d2e2d41ae14b4a3e
+      projectPath: Library/Artifacts/01/0160d3c642cb7c36d2e2d41ae14b4a3e
       originalPath: 
       indexStatus: 0
       workTreeStatus: 5
-    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/13/133c6f60884f4a2ee8081c81e068f638
       fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
-        Pro_Puzzles/Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
-      projectPath: Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+        Pro_Puzzles/Library/Artifacts/13/133c6f60884f4a2ee8081c81e068f638
+      projectPath: Library/Artifacts/13/133c6f60884f4a2ee8081c81e068f638
       originalPath: 
       indexStatus: 0
       workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/14/142dd525c94bd5b5e16e2bf0880b1c01
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/14/142dd525c94bd5b5e16e2bf0880b1c01
+      projectPath: Library/Artifacts/14/142dd525c94bd5b5e16e2bf0880b1c01
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/44/4451e3586a7cae389da6d0135a52a980
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/44/4451e3586a7cae389da6d0135a52a980
+      projectPath: Library/Artifacts/44/4451e3586a7cae389da6d0135a52a980
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/54/54ebb5fe5a1e85c78248b5d1a78ece1e
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/54/54ebb5fe5a1e85c78248b5d1a78ece1e
+      projectPath: Library/Artifacts/54/54ebb5fe5a1e85c78248b5d1a78ece1e
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/58/58d17d17f2b43c8a7cbe094d4855e86c
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/58/58d17d17f2b43c8a7cbe094d4855e86c
+      projectPath: Library/Artifacts/58/58d17d17f2b43c8a7cbe094d4855e86c
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/5a/5a150bef5cee40bbe45ddd5f39f96e30
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/5a/5a150bef5cee40bbe45ddd5f39f96e30
+      projectPath: Library/Artifacts/5a/5a150bef5cee40bbe45ddd5f39f96e30
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/5d/5d4795d040407b6330f105dc69bb3980
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/5d/5d4795d040407b6330f105dc69bb3980
+      projectPath: Library/Artifacts/5d/5d4795d040407b6330f105dc69bb3980
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/68/686489217a784a9c7babe0add7d5f49d
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/68/686489217a784a9c7babe0add7d5f49d
+      projectPath: Library/Artifacts/68/686489217a784a9c7babe0add7d5f49d
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/6a/6a1c2aef45d8450081886123e8d4ad09
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/6a/6a1c2aef45d8450081886123e8d4ad09
+      projectPath: Library/Artifacts/6a/6a1c2aef45d8450081886123e8d4ad09
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/71/71af8d22e673cf8105f114c6e7947f47
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/71/71af8d22e673cf8105f114c6e7947f47
+      projectPath: Library/Artifacts/71/71af8d22e673cf8105f114c6e7947f47
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/88/88448bcbadca7e149bc3c75bef9a13ba
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/88/88448bcbadca7e149bc3c75bef9a13ba
+      projectPath: Library/Artifacts/88/88448bcbadca7e149bc3c75bef9a13ba
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/8e/8e83b8efc2ffe88d42037df3b9c6b90e
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/8e/8e83b8efc2ffe88d42037df3b9c6b90e
+      projectPath: Library/Artifacts/8e/8e83b8efc2ffe88d42037df3b9c6b90e
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/94/94ca5339b4063b2fad1a643a032073ae
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/94/94ca5339b4063b2fad1a643a032073ae
+      projectPath: Library/Artifacts/94/94ca5339b4063b2fad1a643a032073ae
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/97/9703d79e0919ca006628c2aad9a3fe4c
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/97/9703d79e0919ca006628c2aad9a3fe4c
+      projectPath: Library/Artifacts/97/9703d79e0919ca006628c2aad9a3fe4c
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/a3/a368f8a6ee25ef933c62492b5b427e14
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/a3/a368f8a6ee25ef933c62492b5b427e14
+      projectPath: Library/Artifacts/a3/a368f8a6ee25ef933c62492b5b427e14
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/b1/b196f07578cb81cc8e7c6d0ea31e0e08
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/b1/b196f07578cb81cc8e7c6d0ea31e0e08
+      projectPath: Library/Artifacts/b1/b196f07578cb81cc8e7c6d0ea31e0e08
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/b2/b27459c4ff66aa1a78a4f05742cd97ce
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/b2/b27459c4ff66aa1a78a4f05742cd97ce
+      projectPath: Library/Artifacts/b2/b27459c4ff66aa1a78a4f05742cd97ce
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/bf/bfc3e60a0d87a98d5a8971c6255810a5
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/bf/bfc3e60a0d87a98d5a8971c6255810a5
+      projectPath: Library/Artifacts/bf/bfc3e60a0d87a98d5a8971c6255810a5
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e2/e2fd5d27908bb93ae71fd966b2067bf3
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/e2/e2fd5d27908bb93ae71fd966b2067bf3
+      projectPath: Library/Artifacts/e2/e2fd5d27908bb93ae71fd966b2067bf3
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/ea/ead05113802a8c55bf64f5f7946e36c4
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/ea/ead05113802a8c55bf64f5f7946e36c4
+      projectPath: Library/Artifacts/ea/ead05113802a8c55bf64f5f7946e36c4
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/f5/f51de7b84372de0237e77759dd9ebf39
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/f5/f51de7b84372de0237e77759dd9ebf39
+      projectPath: Library/Artifacts/f5/f51de7b84372de0237e77759dd9ebf39
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/ff/ffb3bd7928f778e7aa74c05a0e85da6f
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/ff/ffb3bd7928f778e7aa74c05a0e85da6f
+      projectPath: Library/Artifacts/ff/ffb3bd7928f778e7aa74c05a0e85da6f
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 5
+    - path: 2.5D Platformer Pro_Puzzles/Library/CurrentLayout-default.dwlt
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/CurrentLayout-default.dwlt
+      projectPath: Library/CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: 2.5D Platformer Pro_Puzzles/Library/EditorInstance.json
       fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
         Pro_Puzzles/Library/EditorInstance.json
       projectPath: Library/EditorInstance.json
       originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/expandedItems
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/expandedItems
+      projectPath: Library/expandedItems
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/branches.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/InspectorExpandedItems.asset
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: 2.5D Platformer Pro_Puzzles/Library/SceneVisibilityState.asset
       fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
         Pro_Puzzles/Library/SceneVisibilityState.asset
@@ -964,17 +3442,31 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/9/92befcfc9efaaec2a121df9e4eef5873.bin
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/ShaderCache/9/92befcfc9efaaec2a121df9e4eef5873.bin
+      projectPath: Library/ShaderCache/9/92befcfc9efaaec2a121df9e4eef5873.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/c/cd6d5badf978ac18ebeea384b26bb0dc.bin
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/ShaderCache/c/cd6d5badf978ac18ebeea384b26bb0dc.bin
+      projectPath: Library/ShaderCache/c/cd6d5badf978ac18ebeea384b26bb0dc.bin
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
     - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/EditorEncounteredVariants
       fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
         Pro_Puzzles/Library/ShaderCache/EditorEncounteredVariants
       projectPath: Library/ShaderCache/EditorEncounteredVariants
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler0.log
-      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
-        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler0.log
-      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
@@ -992,6 +3484,20 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler3.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler3.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler3.log
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler4.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler4.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler4.log
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     - path: 2.5D Platformer Pro_Puzzles/Library/SourceAssetDB
       fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
         Pro_Puzzles/Library/SourceAssetDB
@@ -999,15 +3505,29 @@ MonoBehaviour:
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 10 changed files
+    - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      projectPath: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 50 changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2020-08-14T16:56:19.415+12:00
+      updatedTimeString: 2020-08-19T10:01:09.843+12:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2020-08-14T17:48:37.358+12:00
+      updatedTimeString: 2020-08-19T11:07:41.240+12:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2020-08-14T17:46:10.869+12:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
@@ -1235,7 +3755,7 @@ MonoBehaviour:
   currentRemoteName: origin
   currentBranch: master
   currentRemoteUrl: https://github.com/TheS0urce/2.5D-Platformer-Pro_Puzzles.git
-  statusAhead: 3
+  statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 1
   isTrackingRemoteBranch: 1
@@ -1248,13 +3768,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2020-08-14T16:56:19.415+12:00
+    updatedTimeString: 2020-08-19T10:01:09.843+12:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2020-08-14T16:56:19.562+12:00
+    updatedTimeString: 2020-08-19T10:01:08.289+12:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2020-08-14T17:00:05.663+12:00
+    updatedTimeString: 2020-08-19T10:00:50.974+12:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -1274,8 +3794,8 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 0.5
-  appManagerProgressMessage: Setting up git...
+  appManagerProgressValue: 1
+  appManagerProgressMessage: Initialized
   connections: []
   primaryConnectionUsername: TheS0urce
 --- !u!114 &15
@@ -1305,7 +3825,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 14188
+  m_LastSelectedObjectID: 14388
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1344,7 +3864,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials
+    - Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts
     m_Globs: []
   m_ViewMode: 0
   m_StartGridSize: 16
@@ -1358,7 +3878,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: d4370000
     m_LastClickedID: 14292
-    m_ExpandedIDs: 0000000076390000
+    m_ExpandedIDs: 00000000923900009439000096390000983900009a3900009c3900009e390000a0390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1386,7 +3906,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000763900008e390000a4390000083a00000a3a00000c3a00000e3a0000
+    m_ExpandedIDs: ffffffff00000000923900009439000096390000983900009a3900009c3900009e390000a0390000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1402,7 +3922,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 4}
+      m_ClientGUIView: {fileID: 0}
     m_SearchString: 
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
@@ -1474,7 +3994,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 185
+  m_LastVerticalScrollValue: 72
   m_AssetGUID: 
   m_InstanceID: 0
   m_LockTracker:
@@ -1507,24 +4027,24 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 6c370000
-      m_LastClickedID: 14188
-      m_ExpandedIDs: 60fbffff6c3700004c380000
+      scrollPos: {x: 0, y: 67}
+      m_SelectedIDs: 34380000
+      m_LastClickedID: 14388
+      m_ExpandedIDs: 60fbffff743700008a370000963700009a3700004a38000066380000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Platform (3)
+        m_OriginalName: Platform (3)
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -1270
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 2}
       m_SearchString: 
@@ -1570,9 +4090,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 19.95, y: 26.46, z: -8.25}
+    m_Target: {x: 18.82, y: 23.25, z: 0}
     speed: 2
-    m_Value: {x: 19.95, y: 26.46, z: -8.25}
+    m_Value: {x: 18.82, y: 23.25, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1601,9 +4121,9 @@ MonoBehaviour:
       m_Size: {x: 0, y: 0}
     yGrid:
       m_Fade:
-        m_Target: 1
+        m_Target: 0
         speed: 2
-        m_Value: 1
+        m_Value: 0
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 1, y: 1}
@@ -1615,7 +4135,7 @@ MonoBehaviour:
       m_Color: {r: 0.5, g: 0.5, b: 0.5, a: 0.4}
       m_Pivot: {x: 0, y: 0, z: 0}
       m_Size: {x: 0, y: 0}
-    m_ShowGrid: 1
+    m_ShowGrid: 0
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
@@ -1623,9 +4143,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 20.4122
+    m_Target: 5.049752
     speed: 2
-    m_Value: 20.4122
+    m_Value: 5.049752
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1678,7 +4198,7 @@ MonoBehaviour:
   m_SerializedViewNames: []
   m_SerializedViewValues: []
   m_PlayModeViewName: GameView
-  m_ShowGizmos: 0
+  m_ShowGizmos: 1
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
   m_TargetSize: {x: 892, y: 502}
@@ -1688,7 +4208,7 @@ MonoBehaviour:
   m_MaximizeOnPlay: 0
   m_UseMipMap: 0
   m_VSyncEnabled: 0
-  m_Gizmos: 0
+  m_Gizmos: 1
   m_Stats: 0
   m_SelectedSizes: 05000000000000000000000000000000000000000000000000000000000000000000000000000000
   m_ZoomArea:

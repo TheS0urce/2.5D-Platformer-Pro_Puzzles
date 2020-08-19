@@ -13,9 +13,587 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2020-08-14T13:31:26.531+12:00
-  initializedAtString: 2020-08-14T13:25:27.472+12:00
+  lastUpdatedAtString: 2020-08-19T13:29:28.243+12:00
+  initializedAtString: 2020-08-19T13:29:14.229+12:00
   log:
+  - commitID: e190ba1e3d72f6b02dc3f239c8c591da5edbfeea
+    mergeA: 
+    mergeB: 
+    authorName: Michiel Burger
+    authorEmail: michielburger0@gmail.com
+    commitEmail: michielburger0@gmail.com
+    commitName: Michiel Burger
+    summary: Wall jumping
+    description: Wall jumping functionality Implemented
+    timeString: 2020-08-19T13:29:13.000+12:00
+    commitTimeString: 2020-08-19T13:29:13.000+12:00
+    changes:
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/Player.cs
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/Player.cs
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: d60a0065312e105ed17e84cbc923cbe55331dcc2
+    mergeA: 
+    mergeB: 
+    authorName: Michiel Burger
+    authorEmail: michielburger0@gmail.com
+    commitEmail: michielburger0@gmail.com
+    commitName: Michiel Burger
+    summary: Elevator behaviour
+    description: Elevator up and down movement implemented and jitter fixed.
+    timeString: 2020-08-19T10:00:49.000+12:00
+    commitTimeString: 2020-08-19T10:00:49.000+12:00
+    changes:
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/Elevator.cs
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/Elevator.cs
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/Elevator.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/Elevator.cs.meta
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/Elevator.cs.meta
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/Elevator.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/ElevatorPanel.cs
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/ElevatorPanel.cs
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/ElevatorPanel.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 5582d83ffb1a845a6d8eeb8a6dd63e142a61fb18
+    mergeA: 
+    mergeB: 
+    authorName: Michiel Burger
+    authorEmail: michielburger0@gmail.com
+    commitEmail: michielburger0@gmail.com
+    commitName: Michiel Burger
+    summary: Required coin count added
+    description: 
+    timeString: 2020-08-15T10:26:04.000+12:00
+    commitTimeString: 2020-08-15T10:26:04.000+12:00
+    changes:
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/ElevatorPanel.cs
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/ElevatorPanel.cs
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/ElevatorPanel.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/Player.cs
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/Player.cs
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/Player.cs
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 760262df55576022ebc42adcde9a96742665ebfc
+    mergeA: 
+    mergeB: 
+    authorName: Michiel Burger
+    authorEmail: michielburger0@gmail.com
+    commitEmail: michielburger0@gmail.com
+    commitName: Michiel Burger
+    summary: Call Button
+    description: Change call button colour after OnTriggerStay
+    timeString: 2020-08-15T09:51:00.000+12:00
+    commitTimeString: 2020-08-15T09:51:00.000+12:00
+    changes:
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Materials/Call_Button_Blue_mat.mat.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/ElevatorPanel.cs
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/ElevatorPanel.cs
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/ElevatorPanel.cs
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/ElevatorPanel.cs.meta
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/ElevatorPanel.cs.meta
+      projectPath: Assets/GameDevHQ/FileBase/Projects/Tutorials/Starter_Files/2_5D_Puzzle_Starter/Scripts/ElevatorPanel.cs.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Assets/Scenes/SampleScene.unity
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/Scenes/SampleScene.unity
+      projectPath: Assets/Scenes/SampleScene.unity
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Assets/Scenes/SampleSceneSettings.lighting
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/Scenes/SampleSceneSettings.lighting
+      projectPath: Assets/Scenes/SampleSceneSettings.lighting
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Assets/Scenes/SampleSceneSettings.lighting.meta
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Assets/Scenes/SampleSceneSettings.lighting.meta
+      projectPath: Assets/Scenes/SampleSceneSettings.lighting.meta
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/ArtifactDB
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/ArtifactDB
+      projectPath: Library/ArtifactDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/01/0160d3c642cb7c36d2e2d41ae14b4a3e
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/01/0160d3c642cb7c36d2e2d41ae14b4a3e
+      projectPath: Library/Artifacts/01/0160d3c642cb7c36d2e2d41ae14b4a3e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/13/133c6f60884f4a2ee8081c81e068f638
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/13/133c6f60884f4a2ee8081c81e068f638
+      projectPath: Library/Artifacts/13/133c6f60884f4a2ee8081c81e068f638
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/14/142dd525c94bd5b5e16e2bf0880b1c01
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/14/142dd525c94bd5b5e16e2bf0880b1c01
+      projectPath: Library/Artifacts/14/142dd525c94bd5b5e16e2bf0880b1c01
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/41/419ec910c97eb4952003a9980a973396
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/41/419ec910c97eb4952003a9980a973396
+      projectPath: Library/Artifacts/41/419ec910c97eb4952003a9980a973396
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/56/56183febcc977c28850ed358aacd92de
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/56/56183febcc977c28850ed358aacd92de
+      projectPath: Library/Artifacts/56/56183febcc977c28850ed358aacd92de
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/5a/5a150bef5cee40bbe45ddd5f39f96e30
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/5a/5a150bef5cee40bbe45ddd5f39f96e30
+      projectPath: Library/Artifacts/5a/5a150bef5cee40bbe45ddd5f39f96e30
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/5d/5d4795d040407b6330f105dc69bb3980
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/5d/5d4795d040407b6330f105dc69bb3980
+      projectPath: Library/Artifacts/5d/5d4795d040407b6330f105dc69bb3980
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/71/71af8d22e673cf8105f114c6e7947f47
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/71/71af8d22e673cf8105f114c6e7947f47
+      projectPath: Library/Artifacts/71/71af8d22e673cf8105f114c6e7947f47
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/8e/8e83b8efc2ffe88d42037df3b9c6b90e
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/8e/8e83b8efc2ffe88d42037df3b9c6b90e
+      projectPath: Library/Artifacts/8e/8e83b8efc2ffe88d42037df3b9c6b90e
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/97/9703d79e0919ca006628c2aad9a3fe4c
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/97/9703d79e0919ca006628c2aad9a3fe4c
+      projectPath: Library/Artifacts/97/9703d79e0919ca006628c2aad9a3fe4c
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/a3/a368f8a6ee25ef933c62492b5b427e14
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/a3/a368f8a6ee25ef933c62492b5b427e14
+      projectPath: Library/Artifacts/a3/a368f8a6ee25ef933c62492b5b427e14
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/b1/b196f07578cb81cc8e7c6d0ea31e0e08
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/b1/b196f07578cb81cc8e7c6d0ea31e0e08
+      projectPath: Library/Artifacts/b1/b196f07578cb81cc8e7c6d0ea31e0e08
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/b2/b27459c4ff66aa1a78a4f05742cd97ce
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/b2/b27459c4ff66aa1a78a4f05742cd97ce
+      projectPath: Library/Artifacts/b2/b27459c4ff66aa1a78a4f05742cd97ce
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/c9/c99fc9688b4df16189c1fe0910b2bb17
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/c9/c99fc9688b4df16189c1fe0910b2bb17
+      projectPath: Library/Artifacts/c9/c99fc9688b4df16189c1fe0910b2bb17
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/db/db647c559c29a93d910cf9dc89ed8487
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/db/db647c559c29a93d910cf9dc89ed8487
+      projectPath: Library/Artifacts/db/db647c559c29a93d910cf9dc89ed8487
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+      projectPath: Library/Artifacts/e0/e0469a918b6b0974e17c0cc6cad5aaca
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/ea/ead05113802a8c55bf64f5f7946e36c4
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/ea/ead05113802a8c55bf64f5f7946e36c4
+      projectPath: Library/Artifacts/ea/ead05113802a8c55bf64f5f7946e36c4
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/Artifacts/ff/ffb3bd7928f778e7aa74c05a0e85da6f
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/Artifacts/ff/ffb3bd7928f778e7aa74c05a0e85da6f
+      projectPath: Library/Artifacts/ff/ffb3bd7928f778e7aa74c05a0e85da6f
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/CurrentLayout-default.dwlt
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/CurrentLayout-default.dwlt
+      projectPath: Library/CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/EditorInstance.json
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/InspectorExpandedItems.asset
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/InspectorExpandedItems.asset
+      projectPath: Library/InspectorExpandedItems.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/SceneVisibilityState.asset
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/SceneVisibilityState.asset
+      projectPath: Library/SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/ScriptAssemblies/Assembly-CSharp.dll
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/ScriptAssemblies/Assembly-CSharp.dll
+      projectPath: Library/ScriptAssemblies/Assembly-CSharp.dll
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/ShaderCache/EditorEncounteredVariants
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/ShaderCache/EditorEncounteredVariants
+      projectPath: Library/ShaderCache/EditorEncounteredVariants
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/SourceAssetDB
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      projectPath: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/expandedItems
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/expandedItems
+      projectPath: Library/expandedItems
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler0.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler0.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler0.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler1.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler1.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler1.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler2.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler2.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+  - commitID: 81a3757af813ecfe4d0ccc6d3e5071e30cbdb119
+    mergeA: 
+    mergeB: 
+    authorName: Michiel Burger
+    authorEmail: michielburger0@gmail.com
+    commitEmail: michielburger0@gmail.com
+    commitName: Michiel Burger
+    summary: Initial Commit
+    description: Scene and project se up
+    timeString: 2020-08-14T13:41:30.000+12:00
+    commitTimeString: 2020-08-14T13:41:30.000+12:00
+    changes:
+    - path: 2.5D Platformer Pro_Puzzles/Library/CurrentLayout-default.dwlt
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/CurrentLayout-default.dwlt
+      projectPath: Library/CurrentLayout-default.dwlt
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/EditorInstance.json
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/EditorInstance.json
+      projectPath: Library/EditorInstance.json
+      originalPath: 
+      indexStatus: 5
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/EditorUserBuildSettings.asset
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/EditorUserBuildSettings.asset
+      projectPath: Library/EditorUserBuildSettings.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/LastSceneManagerSetup.txt
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/LastSceneManagerSetup.txt
+      projectPath: Library/LastSceneManagerSetup.txt
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/SceneVisibilityState.asset
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/SceneVisibilityState.asset
+      projectPath: Library/SceneVisibilityState.asset
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/SourceAssetDB
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/SourceAssetDB
+      projectPath: Library/SourceAssetDB
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      projectPath: Library/StateCache/MainStageHierarchy/4d/4d2a36d9faf65734f0bbefb3ee623532.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      projectPath: Library/StateCache/SceneView/8c/8cd7c613bf844de3b80696e27a479d5e.json
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/expandedItems
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/expandedItems
+      projectPath: Library/expandedItems
+      originalPath: 
+      indexStatus: 4
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/branches.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/branches.yaml
+      projectPath: Library/gfu/cache/branches.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitlocks.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gitlocks.yaml
+      projectPath: Library/gfu/cache/gitlocks.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitlog.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gitlog.yaml
+      projectPath: Library/gfu/cache/gitlog.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gitstatusentries.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gitstatusentries.yaml
+      projectPath: Library/gfu/cache/gitstatusentries.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/gittrackingstatus.yaml
+      projectPath: Library/gfu/cache/gittrackingstatus.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/gfu/cache/repoinfo.yaml
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/gfu/cache/repoinfo.yaml
+      projectPath: Library/gfu/cache/repoinfo.yaml
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler1.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler1.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler1.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler2.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler2.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler2.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler3.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler3.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler3.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler4.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler4.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler4.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler5.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler5.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler5.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler6.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler6.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler6.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler7.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler7.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler7.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
+    - path: 2.5D Platformer Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler8.log
+      fullPath: /Users/michielburger/Unity/2.5D-Platformer-Pro_Puzzles/2.5D Platformer
+        Pro_Puzzles/Library/shadercompiler-UnityShaderCompiler8.log
+      projectPath: Library/shadercompiler-UnityShaderCompiler8.log
+      originalPath: 
+      indexStatus: 3
+      workTreeStatus: 0
   - commitID: 6991cc92a0f67e37334b3b48f4e1ba8551645ceb
     mergeA: 
     mergeB: 

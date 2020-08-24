@@ -19,6 +19,8 @@ public class Player : MonoBehaviour
     private UIManager _uiManager;
     [SerializeField]
     private int _lives = 3;
+    [SerializeField]
+    private float _pushPower = 2.0f;
 
     private Vector3 _direction, _velocity;
     private bool _canWallJump = false;
@@ -82,6 +84,29 @@ public class Player : MonoBehaviour
 
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
+        //detect moving box
+        //confirm it has a rigidbody
+
+        Rigidbody rb = hit.collider.attachedRigidbody;
+
+        if(hit.transform.tag == "MovingBox")
+        {
+            if(rb != null)
+            {
+                Vector3 pushDirection = new Vector3(hit.moveDirection.x, 0, 0);
+                rb.velocity = pushDirection * _pushPower;
+            }
+
+            if(hit.moveDirection.y < -0.3f)
+            {
+                return;
+            }
+        }
+
+        //push power - declare valuable on top
+        //calculate move direction
+        //push - using moving box velocity
+
         //if not grounded && touching a wall
         if (_controller.isGrounded == false && hit.transform.tag == "Wall")
         {

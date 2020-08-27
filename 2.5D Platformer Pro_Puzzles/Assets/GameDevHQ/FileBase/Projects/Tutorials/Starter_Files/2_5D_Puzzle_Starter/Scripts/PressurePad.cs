@@ -4,9 +4,6 @@ using UnityEngine;
 
 public class PressurePad : MonoBehaviour
 {
-    [SerializeField]
-    private MeshRenderer _boxColour;
-
     //detect moving box
     //when close to centre
     //disable box's rigidbody or set it to kinematic
@@ -14,14 +11,27 @@ public class PressurePad : MonoBehaviour
 
     private void OnTriggerStay(Collider other)
     {
-        Rigidbody rb = other.GetComponent<Rigidbody>();
-
         if (other.tag == "MovingBox")
         {
-            if (other.transform.position.x < .4f)
+            float distance = Vector2.Distance(transform.position, other.transform.position);
+
+            if (distance < .2f)
             {
-                rb.isKinematic = true;
-                _boxColour.material.color = Color.blue;
+                Rigidbody rb = GetComponent<Rigidbody>();
+
+                if (rb != null)
+                {
+                    rb.isKinematic = true;
+                }
+
+                MeshRenderer renderer = GetComponentInChildren<MeshRenderer>();
+
+                if(renderer != null)
+                {
+                    renderer.material.color = Color.blue;
+                }
+
+                Destroy(this);
             }
         }
     }

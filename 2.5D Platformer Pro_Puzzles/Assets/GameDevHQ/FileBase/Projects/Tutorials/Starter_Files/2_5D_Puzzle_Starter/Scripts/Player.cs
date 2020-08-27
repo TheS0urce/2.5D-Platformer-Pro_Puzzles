@@ -113,7 +113,7 @@ public class Player : MonoBehaviour
             Debug.DrawRay(hit.point, hit.normal, Color.blue);
             _wallSurfaceNormal = hit.normal;
             //we can wall jump
-            _canDoubleJump = true;
+            _canWallJump = true;
         }
     }
 

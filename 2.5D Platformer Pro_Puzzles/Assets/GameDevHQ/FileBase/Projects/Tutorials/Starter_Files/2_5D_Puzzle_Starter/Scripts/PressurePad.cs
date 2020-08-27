@@ -17,7 +17,7 @@ public class PressurePad : MonoBehaviour
 
             if (distance < .2f)
             {
-                Rigidbody rb = GetComponent<Rigidbody>();
+                Rigidbody rb = other.GetComponent<Rigidbody>();
 
                 if (rb != null)
                 {
@@ -25,10 +25,16 @@ public class PressurePad : MonoBehaviour
                 }
 
                 MeshRenderer renderer = GetComponentInChildren<MeshRenderer>();
+                MeshRenderer mr = other.GetComponent<MeshRenderer>();
 
                 if(renderer != null)
                 {
                     renderer.material.color = Color.blue;
+                }
+
+                if(mr != null)
+                {
+                    mr.material.color = Color.grey;
                 }
 
                 Destroy(this);
